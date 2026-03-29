@@ -40,7 +40,7 @@ fun toastList(state: ToastListState) {
                         WindowInsets.statusBars
                             .asPaddingValues()
                             .calculateTopPadding() +
-                            if (position == Alignment.TopCenter) 25.dp else 0.dp,
+                            if (position == Alignment.TopCenter) 30.dp else 0.dp,
                     bottom =
                         WindowInsets.navigationBars
                             .asPaddingValues()
